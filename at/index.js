@@ -6,3 +6,14 @@ const index = 5;
 
 console.log(`The char at ${index} is ${sentence.charAt(index)}`)
 // console.log(`The char at ${index} is ${sentence.charAt(minusIndex)}`)
+
+
+// EXAMPLE TWO
+const invoice = 'invoice05'
+
+const returnLast = (str) => {
+    console.log(str.charAt(2))
+    return str.charAt(1)
+}
+
+returnLast(invoice)
